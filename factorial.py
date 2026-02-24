@@ -8,5 +8,8 @@ def factorial(n):
 
 
 if __name__ == "__main__":
-    num = 5   # change this number to test
+    num = 5
     print(f"Factorial of {num} is {factorial(num)}")
+
+    # Force fail by raising an error
+    raise Exception("Intentional failure for testing CircleCI")
