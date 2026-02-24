@@ -8,5 +8,5 @@ def factorial(n):
 
 
 if __name__ == "__main__":
-    num = 5   # change this number to test
+    num = -5   # change this number to test
     print(f"Factorial of {num} is {factorial(num)}")
